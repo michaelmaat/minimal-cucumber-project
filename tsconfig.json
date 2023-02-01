@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@mycompany/helpers/waithelper": ["libs/waithelper/index.ts"]
+    }
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}
